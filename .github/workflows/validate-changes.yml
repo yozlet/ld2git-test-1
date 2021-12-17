@@ -22,7 +22,7 @@ jobs:
           node-version: '14'
       - name: Run validation
         id: validation
-        uses: yozlet/ld_data_validator@main
+        uses: yozlet/ld_data_validator@master
         with:
           commitCount: "${{ steps.commit_counter.outputs.commitCount }}"
           baseUrl: 'https://varnish-fastly-gonfalon-pr-15438.launchdarkly.okteto.dev'
