@@ -11,7 +11,7 @@
 	"fallthrough": {
 		"variation": 0
 	},
-	"lastModified": 1639726677269,
+	"lastModified": 1639727292702,
 	"offVariation": 1,
 	"on": false,
 	"prerequisites": [],
@@ -25,7 +25,7 @@
 					"negate": false,
 					"op": "endsWith",
 					"values": [
-						"you"
+						"me"
 					]
 				}
 			],
@@ -39,5 +39,5 @@
 	"targets": [],
 	"trackEvents": false,
 	"trackEventsFallthrough": false,
-	"version": 3
+	"version": 4
 }
