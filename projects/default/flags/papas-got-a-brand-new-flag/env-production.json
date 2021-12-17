@@ -1,0 +1,25 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/papas-got-a-brand-new-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639702448451,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "11f22ab794884b7e9ad8bf1458e8c1a0",
+	"sel": "995b4bd8bbe448bba0d985161869e585",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

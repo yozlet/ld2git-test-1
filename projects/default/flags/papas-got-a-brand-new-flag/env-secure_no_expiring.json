@@ -1,0 +1,25 @@
+{
+	"_environmentName": "secure with no expiring key",
+	"_site": {
+		"href": "/default/secure_no_expiring/features/papas-got-a-brand-new-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639702448451,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "7fee0817264d48149fbb6e8d9cb70fb0",
+	"sel": "4bc8f8134fac4def8f41fd2b1f011774",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

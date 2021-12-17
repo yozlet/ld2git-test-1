@@ -1,0 +1,51 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1639702448449,
+	"customProperties": {},
+	"defaults": {
+		"offVariation": 1,
+		"onVariation": 0
+	},
+	"description": "yes, yoz made this",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "papas-got-a-brand-new-flag",
+	"kind": "multivariate",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Papa's Got A Brand New Flag",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "9448c757-6961-4363-af57-05e0745999b2",
+			"value": "shadrach"
+		},
+		{
+			"_id": "b1901206-4e09-46ee-9345-95f6fe3bf470",
+			"value": "meshach"
+		},
+		{
+			"_id": "3280ed72-9eff-4a9a-b73d-a24e22bbf898",
+			"value": "abednego"
+		}
+	]
+}
