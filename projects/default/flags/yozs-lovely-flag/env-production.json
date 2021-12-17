@@ -11,15 +11,33 @@
 	"fallthrough": {
 		"variation": 0
 	},
-	"lastModified": 1639724941075,
+	"lastModified": 1639724987392,
 	"offVariation": 1,
 	"on": false,
 	"prerequisites": [],
-	"rules": [],
+	"rules": [
+		{
+			"_id": "bca46678-2ab1-41dd-bdc5-884c957b0168",
+			"clauses": [
+				{
+					"_id": "5579aa7e-201a-4190-9616-c3b8ee58e45f",
+					"attribute": "the world",
+					"negate": false,
+					"op": "endsWith",
+					"values": [
+						"you"
+					]
+				}
+			],
+			"description": "Hey look at this here rule",
+			"trackEvents": false,
+			"variation": 0
+		}
+	],
 	"salt": "9bedb2c70bd84e75989c5d4a6ae25f33",
 	"sel": "2f1f23ed1a404c28a93fe6863de51231",
 	"targets": [],
 	"trackEvents": false,
 	"trackEventsFallthrough": false,
-	"version": 1
+	"version": 2
 }
