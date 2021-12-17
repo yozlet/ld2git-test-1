@@ -1,0 +1,43 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/papas-got-a-brand-new-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639705484342,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [
+		{
+			"_id": "ab59d84e-e528-4ed1-966c-18aff81ec6d6",
+			"clauses": [
+				{
+					"_id": "05bf5237-a745-4846-b2e3-026e39361f26",
+					"attribute": "email",
+					"negate": false,
+					"op": "endsWith",
+					"values": [
+						"your mum"
+					]
+				}
+			],
+			"description": "Yoz says hi",
+			"trackEvents": false,
+			"variation": 1
+		}
+	],
+	"salt": "11f22ab794884b7e9ad8bf1458e8c1a0",
+	"sel": "995b4bd8bbe448bba0d985161869e585",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 3
+}
