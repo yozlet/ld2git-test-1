@@ -11,16 +11,16 @@
 	"fallthrough": {
 		"variation": 0
 	},
-	"lastModified": 1639714123253,
+	"lastModified": 1639717388339,
 	"offVariation": 1,
 	"on": false,
 	"prerequisites": [],
 	"rules": [
 		{
-			"_id": "dfef137b-7c7a-4a33-afba-dcece99a6d63",
+			"_id": "13cb0299-82bb-45d2-b683-889867964159",
 			"clauses": [
 				{
-					"_id": "2b2e8e87-6f6f-40fb-a751-d65e3da40e49",
+					"_id": "99cf17c9-a8b6-48d8-af3f-eb2c61ad0415",
 					"attribute": "email",
 					"negate": false,
 					"op": "endsWith",
@@ -39,5 +39,5 @@
 	"targets": [],
 	"trackEvents": false,
 	"trackEventsFallthrough": false,
-	"version": 5
+	"version": 6
 }
