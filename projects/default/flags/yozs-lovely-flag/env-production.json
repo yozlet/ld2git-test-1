@@ -11,21 +11,21 @@
 	"fallthrough": {
 		"variation": 0
 	},
-	"lastModified": 1639727292702,
+	"lastModified": 1639727342969,
 	"offVariation": 1,
 	"on": false,
 	"prerequisites": [],
 	"rules": [
 		{
-			"_id": "bca46678-2ab1-41dd-bdc5-884c957b0168",
+			"_id": "a853c5c9-8d9c-4c55-b717-e4ed3957a49e",
 			"clauses": [
 				{
-					"_id": "5579aa7e-201a-4190-9616-c3b8ee58e45f",
+					"_id": "22b4e015-dd8c-4304-894e-8aad2905a953",
 					"attribute": "email",
 					"negate": false,
 					"op": "endsWith",
 					"values": [
-						"me"
+						"you"
 					]
 				}
 			],
@@ -39,5 +39,5 @@
 	"targets": [],
 	"trackEvents": false,
 	"trackEventsFallthrough": false,
-	"version": 4
+	"version": 5
 }
