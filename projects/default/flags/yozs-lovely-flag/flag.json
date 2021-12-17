@@ -1,0 +1,47 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "Gob",
+		"lastName": "Bluth",
+		"role": "owner"
+	},
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1639724941073,
+	"customProperties": {},
+	"defaults": {
+		"offVariation": 1,
+		"onVariation": 0
+	},
+	"description": "There is no butter on this flag",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "yozs-lovely-flag",
+	"kind": "boolean",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Yoz's Lovely Flag",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "7609e860-ec9c-4bcc-b69b-749688be1d8e",
+			"value": true
+		},
+		{
+			"_id": "d80e2dc2-ec98-4438-a95d-0b21833a59fa",
+			"value": false
+		}
+	]
+}

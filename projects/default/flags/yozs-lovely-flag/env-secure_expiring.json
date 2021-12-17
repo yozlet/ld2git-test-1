@@ -1,0 +1,25 @@
+{
+	"_environmentName": "secure with expiring key",
+	"_site": {
+		"href": "/default/secure_expiring/features/yozs-lovely-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639724941075,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "6d20f20b25504e3d9b8124631bf1a0f5",
+	"sel": "a6665ab21e6849dfadb4d87f6d2db535",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

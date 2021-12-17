@@ -1,0 +1,25 @@
+{
+	"_environmentName": "Test",
+	"_site": {
+		"href": "/default/test/features/yozs-lovely-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639724941075,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "8dc4447b1de0465698a2232b88af8f95",
+	"sel": "a288d4feb6094c2b9057ba1c083eee46",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}
