@@ -4,8 +4,8 @@
 		"_id": "569f514183f2164430000002",
 		"_links": null,
 		"email": "testing@launchdarkly.com",
-		"firstName": "Gob",
-		"lastName": "Bluth",
+		"firstName": "",
+		"lastName": "",
 		"role": "owner"
 	},
 	"_version": 1,
@@ -20,7 +20,7 @@
 		"offVariation": 1,
 		"onVariation": 0
 	},
-	"description": "yes, yoz made this",
+	"description": "yes, yoz made this. He updated the description too!",
 	"environments": null,
 	"experiments": {
 		"baselineIdx": 0,
