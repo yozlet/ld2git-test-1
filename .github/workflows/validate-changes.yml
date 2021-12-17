@@ -22,10 +22,10 @@ jobs:
           node-version: '14'
       - name: Run validation
         id: validation
-        uses: pbzona/ld_data_validator@main
+        uses: yozlet/ld_data_validator@main
         with:
           commitCount: "${{ steps.commit_counter.outputs.commitCount }}"
-          baseUrl: 'https://varnish-fastly-gonfalon-pr-15423.launchdarkly.okteto.dev/'
+          baseUrl: 'https://varnish-fastly-gonfalon-pr-15438.launchdarkly.okteto.dev'
         env:
           LD_API_KEY: ${{ secrets.LD_API_KEY }}
       - name: Get the triggering event
