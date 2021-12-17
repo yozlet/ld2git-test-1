@@ -4,11 +4,11 @@
 		"_id": "569f514183f2164430000002",
 		"_links": null,
 		"email": "testing@launchdarkly.com",
-		"firstName": "",
-		"lastName": "",
+		"firstName": "Gob",
+		"lastName": "Bluth",
 		"role": "owner"
 	},
-	"_version": 7,
+	"_version": 1,
 	"archived": false,
 	"clientSideAvailability": {
 		"usingEnvironmentId": false,
@@ -20,7 +20,7 @@
 		"offVariation": 1,
 		"onVariation": 0
 	},
-	"description": "yes, yoz made this. He updated the description too!",
+	"description": "yes, yoz made this",
 	"environments": null,
 	"experiments": {
 		"baselineIdx": 0,

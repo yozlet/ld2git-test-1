@@ -4,8 +4,8 @@
 		"_id": "569f514183f2164430000002",
 		"_links": null,
 		"email": "testing@launchdarkly.com",
-		"firstName": "",
-		"lastName": "",
+		"firstName": "Gob",
+		"lastName": "Bluth",
 		"role": "owner"
 	},
 	"_version": 6,
