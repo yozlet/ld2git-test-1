@@ -1,0 +1,43 @@
+{
+	"_environmentName": "production experiment",
+	"_site": {
+		"href": "/experimentation/production/features/numeric-1634168221",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"rollout": {
+			"experimentAllocation": {
+				"canReshuffle": true,
+				"defaultVariation": 0
+			},
+			"seed": 2072871394,
+			"variations": [
+				{
+					"_untracked": false,
+					"variation": 1,
+					"weight": 50000
+				},
+				{
+					"_untracked": false,
+					"variation": 0,
+					"weight": 50000
+				}
+			]
+		}
+	},
+	"lastModified": 1634169562715,
+	"offVariation": 1,
+	"on": true,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "0b5e8cf099d54e868094b48577929590",
+	"sel": "ced05870b8ec49e39b417469fb5809f7",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 2
+}

@@ -1,0 +1,25 @@
+{
+	"_environmentName": "secure with expired key",
+	"_site": {
+		"href": "/default/secure_expired/features/phil-flag-2",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639697936222,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "b431707cb82f4b16a917fa84932f5f25",
+	"sel": "16238b7927e74c6e91333ba6b6dcfad5",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

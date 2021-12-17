@@ -1,0 +1,70 @@
+{
+	"_links": null,
+	"_version": 2,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": false
+	},
+	"creationDate": 1634170024848,
+	"customProperties": {},
+	"description": "Flag to test experimentation, created on 2021-10-13T17:07:04-07:00.",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": [
+			{
+				"_environmentSettings": {
+					"production": {
+						"enabledPeriods": [
+							{
+								"startDate": 1634167829000
+							}
+						],
+						"startDate": 1634167829000
+					}
+				},
+				"_metric": {
+					"_creationDate": 0,
+					"_id": "61676d9d653c762ff2c6d83d",
+					"_links": {
+						"self": {
+							"href": "/api/v2/metrics/experimentation/61676d9d653c762ff2c6d83d",
+							"type": "application/json"
+						}
+					},
+					"key": "",
+					"kind": "",
+					"name": "",
+					"tags": null
+				},
+				"environments": [
+					"production"
+				],
+				"metricKey": ""
+			}
+		]
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "numeric-1634168221",
+	"kind": "multivariate",
+	"name": "Jagger test flag (numeric-1634168221)",
+	"tags": [
+		"jagger",
+		"testing"
+	],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "36babe7d-cdbe-4aa0-82e8-b7f8544c821d",
+			"name": "Variation 0",
+			"value": 0
+		},
+		{
+			"_id": "3942c80f-b0c8-4307-ac63-5fcf58b46c0d",
+			"name": "Variation 1",
+			"value": 1
+		}
+	]
+}

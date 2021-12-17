@@ -1,0 +1,25 @@
+{
+	"_environmentName": "secure with expiring key",
+	"_site": {
+		"href": "/default/secure_expiring/features/sheena-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639697735299,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "042af5ecd5394aecb7f943cc71da5be3",
+	"sel": "e0b778adca584d3d8986e428fc063e17",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

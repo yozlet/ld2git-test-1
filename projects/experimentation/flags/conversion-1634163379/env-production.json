@@ -1,0 +1,43 @@
+{
+	"_environmentName": "production experiment",
+	"_site": {
+		"href": "/experimentation/production/features/conversion-1634163379",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"rollout": {
+			"experimentAllocation": {
+				"canReshuffle": true,
+				"defaultVariation": 0
+			},
+			"seed": 478352525,
+			"variations": [
+				{
+					"_untracked": false,
+					"variation": 1,
+					"weight": 50000
+				},
+				{
+					"_untracked": false,
+					"variation": 0,
+					"weight": 50000
+				}
+			]
+		}
+	},
+	"lastModified": 1634163379395,
+	"offVariation": 1,
+	"on": true,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "8429e5085abd44e0971b40bbb69f5931",
+	"sel": "a2f01dfcb62441a0826a2537dbd33974",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 2
+}

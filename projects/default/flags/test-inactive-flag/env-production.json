@@ -1,0 +1,24 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/test-inactive-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 1
+	},
+	"lastModified": 1460413856510,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "d01eeeac33a24a5cb42bc65f6dd81cb3",
+	"sel": "2ad034678e39476a8ae5c5568e08daa3",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

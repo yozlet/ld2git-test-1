@@ -1,0 +1,47 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1639701377127,
+	"customProperties": {},
+	"defaults": {
+		"offVariation": 1,
+		"onVariation": 0
+	},
+	"description": "",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "mchheda-flag",
+	"kind": "boolean",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "mchheda-flag",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "151ca7a8-41eb-4c99-bf5c-6ea833d5fe62",
+			"value": true
+		},
+		{
+			"_id": "a32beb53-e932-46aa-baea-97383d8ad2c7",
+			"value": false
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/sheena-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639698866721,
+	"offVariation": 1,
+	"on": true,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "cd0507071d7f4387ae4d3935929f3a5d",
+	"sel": "b52b33c99f6f464baed8c095a401c81c",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 4
+}

@@ -1,0 +1,42 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/test-track-reason-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1570233814532,
+	"offVariation": 1,
+	"on": true,
+	"prerequisites": [],
+	"rules": [
+		{
+			"_id": "47dd472e-99a5-418d-b895-0b3ec3f8078a",
+			"clauses": [
+				{
+					"_id": "056ff95d-63a0-45bf-b33a-728c2b9a2485",
+					"attribute": "key",
+					"negate": false,
+					"op": "startsWith",
+					"values": [
+						"test"
+					]
+				}
+			],
+			"trackEvents": true,
+			"variation": 0
+		}
+	],
+	"salt": "eba6adae78b14bd2847fe02dafb1e327",
+	"sel": "7b5a2dda1e694111afe1745cc3f09638",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": true,
+	"version": 3
+}

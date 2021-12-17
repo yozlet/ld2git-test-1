@@ -1,0 +1,13 @@
+{
+	"_id": "572bc0c01baf6a4ae1000095",
+	"_links": null,
+	"defaultClientSideAvailability": {
+		"usingEnvironmentId": true,
+		"usingMobileKey": true
+	},
+	"environments": null,
+	"includeInSnippetByDefault": true,
+	"key": "always-snippet",
+	"name": "Project always include snippet",
+	"tags": []
+}

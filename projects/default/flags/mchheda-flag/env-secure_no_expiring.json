@@ -1,0 +1,25 @@
+{
+	"_environmentName": "secure with no expiring key",
+	"_site": {
+		"href": "/default/secure_no_expiring/features/mchheda-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639701377129,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "b050089733ca47818cb68e988f50d4c1",
+	"sel": "5402cf207ccd451481948994e0eb8931",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

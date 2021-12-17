@@ -1,0 +1,37 @@
+{
+	"_links": null,
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1460413856510,
+	"customProperties": {},
+	"description": "",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "test-integration-flag",
+	"kind": "boolean",
+	"name": "Test integration flag",
+	"tags": [
+		"unique",
+		"setOfTags"
+	],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "bbf57c77-1180-4351-bf02-71677aaa30ab",
+			"value": true
+		},
+		{
+			"_id": "00923afd-62c6-4599-96d4-b5c95aec55c6",
+			"value": false
+		}
+	]
+}

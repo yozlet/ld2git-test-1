@@ -1,0 +1,25 @@
+{
+	"_environmentName": "Test",
+	"_site": {
+		"href": "/redis_flags_cache/test/features/flag-a",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1481163279570,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "0f80e4dfe5c04f3abe497f8a59fbe442",
+	"sel": "1f9ca24ccc7e4cac8032fa567a6f2780",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

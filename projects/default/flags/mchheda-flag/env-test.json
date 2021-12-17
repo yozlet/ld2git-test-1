@@ -1,0 +1,25 @@
+{
+	"_environmentName": "Test",
+	"_site": {
+		"href": "/default/test/features/mchheda-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639701377129,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "77628e9c136a46779b86ab95ec0d9112",
+	"sel": "4c98e8ab9fd243b1aba6c9cd3c1c78ea",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

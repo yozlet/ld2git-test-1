@@ -1,0 +1,13 @@
+{
+	"_id": "576472771baf6aa9bd000002",
+	"_links": null,
+	"defaultClientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"environments": null,
+	"includeInSnippetByDefault": false,
+	"key": "test_sdk",
+	"name": "test_sdk",
+	"tags": []
+}

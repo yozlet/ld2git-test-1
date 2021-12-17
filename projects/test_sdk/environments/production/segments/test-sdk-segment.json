@@ -1,0 +1,13 @@
+{
+	"_links": null,
+	"creationDate": 1496634425530,
+	"deleted": false,
+	"excluded": [],
+	"generation": 0,
+	"included": [],
+	"key": "test-sdk-segment",
+	"name": "sdk test segment",
+	"rules": [],
+	"tags": [],
+	"version": 1
+}

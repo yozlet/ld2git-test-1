@@ -1,0 +1,87 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/test-flag-for-variation-editing",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 1
+	},
+	"lastModified": 1484601845197,
+	"offVariation": 2,
+	"on": false,
+	"prerequisites": [],
+	"rules": [
+		{
+			"_id": "60c61f0c-d12c-4fa6-90d2-7753467a6bb0",
+			"clauses": [
+				{
+					"_id": "1b2c5907-be84-4c12-b8c1-674f9275d0a9",
+					"attribute": "email",
+					"negate": false,
+					"op": "in",
+					"values": [
+						"test@test.com"
+					]
+				}
+			],
+			"trackEvents": false,
+			"variation": 1
+		},
+		{
+			"_id": "92978f2a-58fd-424d-852d-7311f7c2867c",
+			"clauses": [
+				{
+					"_id": "803618a7-07c5-4168-9050-3456c676100c",
+					"attribute": "test",
+					"negate": false,
+					"op": "matches",
+					"values": [
+						"foo@bar.com"
+					]
+				}
+			],
+			"trackEvents": false,
+			"variation": 2
+		},
+		{
+			"_id": "b4a8cb95-0c61-4534-a6e2-593c6488c9e3",
+			"clauses": [
+				{
+					"_id": "a99eebdd-eeda-413c-8c5b-27eb775ef55d",
+					"attribute": "firstName",
+					"negate": false,
+					"op": "in",
+					"values": [
+						"bob"
+					]
+				}
+			],
+			"trackEvents": false,
+			"variation": 0
+		}
+	],
+	"salt": "1dfc38a293da4a759cea48634182519c",
+	"sel": "123d97d1fa9343eba1dd012f6aa2c6a2",
+	"targets": [
+		{
+			"values": [
+				"23"
+			],
+			"variation": 0
+		},
+		{
+			"values": [
+				"42"
+			],
+			"variation": 2
+		}
+	],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 4
+}

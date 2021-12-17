@@ -1,0 +1,70 @@
+{
+	"_links": null,
+	"_version": 5,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": false
+	},
+	"creationDate": 1634163379317,
+	"customProperties": {},
+	"description": "Flag to test experimentation, created on 2021-10-13T15:16:19-07:00.\nExpected probabilities: map[0:0.08542249318318448 1:0.3789686675204511]\nEvaluation totals: map[0:250 1:250]\nEvaluation tracked: map[1:7]\n",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": [
+			{
+				"_environmentSettings": {
+					"production": {
+						"enabledPeriods": [
+							{
+								"startDate": 1634102220000
+							}
+						],
+						"startDate": 1634102220000
+					}
+				},
+				"_metric": {
+					"_creationDate": 0,
+					"_id": "61675ab3653c7621fe1bca07",
+					"_links": {
+						"self": {
+							"href": "/api/v2/metrics/experimentation/61675ab3653c7621fe1bca07",
+							"type": "application/json"
+						}
+					},
+					"key": "",
+					"kind": "",
+					"name": "",
+					"tags": null
+				},
+				"environments": [
+					"production"
+				],
+				"metricKey": ""
+			}
+		]
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "conversion-1634163379",
+	"kind": "multivariate",
+	"name": "Jagger test flag (conversion-1634163379)",
+	"tags": [
+		"jagger",
+		"testing"
+	],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "a188b1d3-570b-42a9-a989-7662b00e1d7e",
+			"name": "Variation 0",
+			"value": 0
+		},
+		{
+			"_id": "06fdf75b-2750-41be-afb7-d9cd87e5c105",
+			"name": "Variation 1",
+			"value": 1
+		}
+	]
+}

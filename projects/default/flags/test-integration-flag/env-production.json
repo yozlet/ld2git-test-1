@@ -1,0 +1,33 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/test-integration-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 1
+	},
+	"lastModified": 1460413856510,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "d01eeeac33a24a5cb42bc65f6dd81cb3",
+	"sel": "2ad034678e39476a8ae5c5568e08daa3",
+	"targets": [
+		{
+			"values": [
+				"593c534b-7b92-43c4-87ba-7cecff9fcaa4",
+				"d20343b5-a3ad-40d0-ae14-b3dcbdca00f8",
+				"nonexistent"
+			],
+			"variation": 0
+		}
+	],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

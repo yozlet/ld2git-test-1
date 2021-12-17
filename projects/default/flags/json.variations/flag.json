@@ -1,0 +1,44 @@
+{
+	"_links": null,
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1462990673435,
+	"customProperties": {},
+	"description": "Feature Flag with json variations",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "json.variations",
+	"kind": "multivariate",
+	"name": "json variations",
+	"tags": [],
+	"temporary": false,
+	"variations": [
+		{
+			"_id": "2a1c76de-4eef-42a5-a8b3-1cc1af213323",
+			"value": {
+				"nested": {
+					"nested": "thing"
+				},
+				"value": false
+			}
+		},
+		{
+			"_id": "1971f586-5c7c-4025-a2e7-ffbd31f7e613",
+			"value": {
+				"nested": {
+					"nested": "thing"
+				},
+				"value": true
+			}
+		}
+	]
+}

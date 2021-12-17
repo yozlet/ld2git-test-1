@@ -1,0 +1,25 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/json.variations",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 1
+	},
+	"lastModified": 1462990673436,
+	"offVariation": 0,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "da4755a75c32421fad1b9e50a2fdccd3",
+	"sel": "16eb3f211dd8489eb74dcfb59c1ebe9d",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

@@ -1,0 +1,13 @@
+{
+	"_id": "6023177251c9265e2d867299",
+	"_links": null,
+	"defaultClientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": false
+	},
+	"environments": null,
+	"includeInSnippetByDefault": false,
+	"key": "experimentation",
+	"name": "Experimentation",
+	"tags": []
+}

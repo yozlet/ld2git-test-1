@@ -1,0 +1,134 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 6,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": true,
+		"usingMobileKey": true
+	},
+	"creationDate": 1586818379928,
+	"customProperties": {},
+	"description": "This flag has active experiments",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 1,
+		"items": [
+			{
+				"_environmentSettings": {
+					"production": {
+						"enabledPeriods": [
+							{
+								"startDate": 1586822180618
+							}
+						],
+						"startDate": 1586822180618
+					}
+				},
+				"_metric": {
+					"_creationDate": 0,
+					"_id": "590263428c4d667524a01294",
+					"_links": {
+						"self": {
+							"href": "/api/v2/metrics/default/590263428c4d667524a01294",
+							"type": "application/json"
+						}
+					},
+					"key": "",
+					"kind": "",
+					"name": "",
+					"tags": null
+				},
+				"environments": [
+					"production"
+				],
+				"metricKey": ""
+			},
+			{
+				"_environmentSettings": {
+					"production": {
+						"enabledPeriods": [
+							{
+								"startDate": 1586822180618
+							}
+						],
+						"startDate": 1586822180618
+					}
+				},
+				"_metric": {
+					"_creationDate": 0,
+					"_id": "5902634c8c4d667524a01297",
+					"_links": {
+						"self": {
+							"href": "/api/v2/metrics/default/5902634c8c4d667524a01297",
+							"type": "application/json"
+						}
+					},
+					"key": "",
+					"kind": "",
+					"name": "",
+					"tags": null
+				},
+				"environments": [
+					"production"
+				],
+				"metricKey": ""
+			},
+			{
+				"_environmentSettings": {
+					"production": {
+						"enabledPeriods": [
+							{
+								"startDate": 1586822180618
+							}
+						],
+						"startDate": 1586822180618
+					}
+				},
+				"_metric": {
+					"_creationDate": 0,
+					"_id": "590263338c4d667524a01290",
+					"_links": {
+						"self": {
+							"href": "/api/v2/metrics/default/590263338c4d667524a01290",
+							"type": "application/json"
+						}
+					},
+					"key": "",
+					"kind": "",
+					"name": "",
+					"tags": null
+				},
+				"environments": [
+					"production"
+				],
+				"metricKey": ""
+			}
+		]
+	},
+	"goalIds": [],
+	"includeInSnippet": true,
+	"key": "flag-with-experiments",
+	"kind": "boolean",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Flag with experiments",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "dc0155ef-3b69-4cab-8d89-2aeaf121af2e",
+			"value": true
+		},
+		{
+			"_id": "c0033749-bedb-4c74-8586-f0ca5640331a",
+			"value": false
+		}
+	]
+}

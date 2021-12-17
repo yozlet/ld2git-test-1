@@ -1,0 +1,13 @@
+{
+	"_id": "5848c1d31baf6a5e5ddf3be3",
+	"_links": null,
+	"defaultClientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"environments": null,
+	"includeInSnippetByDefault": false,
+	"key": "redis_flags_cache",
+	"name": "redis_flags_cache",
+	"tags": []
+}

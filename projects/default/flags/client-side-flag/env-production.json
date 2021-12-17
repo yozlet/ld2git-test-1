@@ -1,0 +1,25 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/client-side-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1494437420346,
+	"offVariation": 1,
+	"on": true,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "5d6bc1b0363f488e900dd15d8d1bd711",
+	"sel": "af454ad0a4ee4548b4d5cc865d508b2b",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 4
+}

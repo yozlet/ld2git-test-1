@@ -1,0 +1,29 @@
+{
+	"_environmentName": "Test",
+	"_site": {
+		"href": "/default/test/features/test-flag-with-prerequisite",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 1
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 1
+	},
+	"lastModified": 1463084141070,
+	"on": false,
+	"prerequisites": [
+		{
+			"key": "test-integration-flag",
+			"variation": 1
+		}
+	],
+	"rules": [],
+	"salt": "3a8b5f39ae8347bb9d789db04787f016",
+	"sel": "f99270ad31ba4728b0280eb1cbc703c9",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

@@ -1,0 +1,43 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1463084141069,
+	"customProperties": {},
+	"description": "This is a feature flag that depends on test-integration-flag",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "test-flag-with-prerequisite",
+	"kind": "boolean",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Test flag with prerequisite",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "0f14d376-cd44-4d65-a7a9-3984b437e0a7",
+			"value": true
+		},
+		{
+			"_id": "bf7ba144-c069-4e1f-880f-73dcb4da5e7a",
+			"value": false
+		}
+	]
+}

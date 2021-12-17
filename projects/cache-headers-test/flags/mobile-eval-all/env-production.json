@@ -1,0 +1,24 @@
+{
+	"_environmentName": "2 minute ttl",
+	"_site": {
+		"href": "/cache-headers-test/production/features/mobile-eval-all",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1466184307303,
+	"on": true,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "54254f4c653846bb8e40ff1e06df2748",
+	"sel": "8009aea04692401a86c1b8f8e9764016",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 2
+}

@@ -1,0 +1,25 @@
+{
+	"_environmentName": "Test",
+	"_site": {
+		"href": "/default/test/features/test-flag-for-variation-editing",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1484601845197,
+	"offVariation": 2,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "8aacaa0899b3463e920da6115cbfa320",
+	"sel": "b34898d9e6374111bec497ee8a59fb50",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

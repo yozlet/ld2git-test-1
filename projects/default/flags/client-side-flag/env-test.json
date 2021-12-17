@@ -1,0 +1,25 @@
+{
+	"_environmentName": "Test",
+	"_site": {
+		"href": "/default/test/features/client-side-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1494437420345,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "d9ef576cccae4b06afaa78bc4b55fdf0",
+	"sel": "f93a51c63f534748aa82d34bc1fcf34a",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

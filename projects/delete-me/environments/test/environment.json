@@ -1,0 +1,25 @@
+{
+	"_id": "5717d265d02d0e0204745e41",
+	"_links": null,
+	"apiKey": "sdk-3c3a0db4-90f6-42b1-9292-665f45947002",
+	"approvalSettings": {
+		"bypassApprovalsForPendingChanges": false,
+		"canApplyDeclinedChanges": true,
+		"canReviewOwnRequest": false,
+		"minNumApprovals": 1,
+		"required": false,
+		"requiredApprovalTags": [],
+		"serviceConfig": {},
+		"serviceKind": "launchdarkly"
+	},
+	"color": "FFFF99",
+	"confirmChanges": false,
+	"defaultTrackEvents": false,
+	"defaultTtl": 0,
+	"key": "test",
+	"mobileKey": "mob-b3e0de44-8594-4445-8a01-5b447a6d22f4",
+	"name": "Test",
+	"requireComments": false,
+	"secureMode": false,
+	"tags": []
+}

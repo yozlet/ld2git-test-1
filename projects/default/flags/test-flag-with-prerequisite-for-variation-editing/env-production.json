@@ -1,0 +1,30 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/test-flag-with-prerequisite-for-variation-editing",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 1
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1484698110417,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [
+		{
+			"key": "test-flag-for-variation-editing-and-prerequisites",
+			"variation": 0
+		}
+	],
+	"rules": [],
+	"salt": "9118427e88ef48c3af1dab254cf9366e",
+	"sel": "f0e79e46d4ba49d0a64cd97887340de8",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 2
+}

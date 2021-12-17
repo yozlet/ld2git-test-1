@@ -1,0 +1,47 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1639697936221,
+	"customProperties": {},
+	"defaults": {
+		"offVariation": 1,
+		"onVariation": 0
+	},
+	"description": "",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "phil-flag-2",
+	"kind": "boolean",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Phil Flag 2",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "4f9f25ac-ca3f-42a7-b965-bfefdcb5307e",
+			"value": true
+		},
+		{
+			"_id": "293990d5-659c-42e4-b078-796379fefe99",
+			"value": false
+		}
+	]
+}

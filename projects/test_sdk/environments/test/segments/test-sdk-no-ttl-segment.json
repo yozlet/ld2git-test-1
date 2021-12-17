@@ -1,0 +1,13 @@
+{
+	"_links": null,
+	"creationDate": 1496637824151,
+	"deleted": false,
+	"excluded": [],
+	"generation": 0,
+	"included": [],
+	"key": "test-sdk-no-ttl-segment",
+	"name": "sdk no ttl test segment",
+	"rules": [],
+	"tags": [],
+	"version": 4
+}

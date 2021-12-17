@@ -1,0 +1,24 @@
+{
+	"_environmentName": "2 minute ttl",
+	"_site": {
+		"href": "/test_sdk/production/features/flag-a",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 1
+	},
+	"lastModified": 1466200779711,
+	"on": true,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "b24e71eb0a544ad6afb807d4d495072a",
+	"sel": "675e5e7b084a4a44af77322a4fbb0048",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 2
+}

@@ -1,0 +1,70 @@
+{
+	"_links": null,
+	"_version": 6,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": false
+	},
+	"creationDate": 1634163456872,
+	"customProperties": {},
+	"description": "Flag to test experimentation, created on 2021-10-13T15:17:36-07:00.\nExpected probabilities: map[0:0.02843077266453753 1:0.19290303117384183]\nExpected distributions: map[0:{ Mean: -37.746852, Standard-Deviation: 54.165415 } 1:{ Mean: -70.716779, Standard-Deviation: 47.310262 }]\nEvaluation totals: map[0:240 1:260]\nEvaluation tracked: map[0:2 1:3]\n",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": [
+			{
+				"_environmentSettings": {
+					"production": {
+						"enabledPeriods": [
+							{
+								"startDate": 1634102220000
+							}
+						],
+						"startDate": 1634102220000
+					}
+				},
+				"_metric": {
+					"_creationDate": 0,
+					"_id": "61675b00653c7621fe1bca11",
+					"_links": {
+						"self": {
+							"href": "/api/v2/metrics/experimentation/61675b00653c7621fe1bca11",
+							"type": "application/json"
+						}
+					},
+					"key": "",
+					"kind": "",
+					"name": "",
+					"tags": null
+				},
+				"environments": [
+					"production"
+				],
+				"metricKey": ""
+			}
+		]
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "numeric-1634163456",
+	"kind": "multivariate",
+	"name": "Jagger test flag (numeric-1634163456)",
+	"tags": [
+		"jagger",
+		"testing"
+	],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "c41b9c3f-e25e-4896-b7a5-4971ac54f0f4",
+			"name": "Variation 0",
+			"value": 0
+		},
+		{
+			"_id": "c230df2a-3518-4282-9d50-c1a36d5c0029",
+			"name": "Variation 1",
+			"value": 1
+		}
+	]
+}

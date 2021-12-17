@@ -1,0 +1,13 @@
+{
+	"_id": "57168ec813b4bef28ebdfb63",
+	"_links": null,
+	"defaultClientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"environments": null,
+	"includeInSnippetByDefault": false,
+	"key": "delete-me",
+	"name": "Project for deletion",
+	"tags": []
+}

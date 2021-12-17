@@ -1,0 +1,43 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 2,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": true,
+		"usingMobileKey": true
+	},
+	"creationDate": 1498596980626,
+	"customProperties": {},
+	"description": "This flag references a segment",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": true,
+	"key": "flag-with-segment",
+	"kind": "boolean",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Flag with segment",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "98bbe393-e132-4b7a-802d-5269fa091ead",
+			"value": true
+		},
+		{
+			"_id": "1a751c09-b128-4080-b764-d0abefeb5657",
+			"value": false
+		}
+	]
+}

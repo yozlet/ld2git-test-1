@@ -1,0 +1,34 @@
+{
+	"_links": null,
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1460413856509,
+	"customProperties": {},
+	"description": "This is a flag that should be in the inactive state",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "test-inactive-flag",
+	"kind": "boolean",
+	"name": "Test inactive flag",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "aad60f31-7303-4f61-8cc9-dbdb8847e70d",
+			"value": true
+		},
+		{
+			"_id": "ff5acf82-e3ab-4e5a-b9ce-dbfcaa5279a4",
+			"value": false
+		}
+	]
+}

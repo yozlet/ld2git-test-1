@@ -1,0 +1,13 @@
+{
+	"_id": "574f47681baf6a1246000002",
+	"_links": null,
+	"defaultClientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"environments": null,
+	"includeInSnippetByDefault": false,
+	"key": "cache-headers-test",
+	"name": "Cache headers testing project",
+	"tags": []
+}

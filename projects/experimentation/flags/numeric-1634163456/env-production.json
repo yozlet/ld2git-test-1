@@ -1,0 +1,43 @@
+{
+	"_environmentName": "production experiment",
+	"_site": {
+		"href": "/experimentation/production/features/numeric-1634163456",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"rollout": {
+			"experimentAllocation": {
+				"canReshuffle": true,
+				"defaultVariation": 0
+			},
+			"seed": 699808270,
+			"variations": [
+				{
+					"_untracked": false,
+					"variation": 1,
+					"weight": 50000
+				},
+				{
+					"_untracked": false,
+					"variation": 0,
+					"weight": 50000
+				}
+			]
+		}
+	},
+	"lastModified": 1634163456956,
+	"offVariation": 1,
+	"on": true,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "6c438d4e16e04c7faa94f7b41bd37b45",
+	"sel": "bdcaea31f0904746b51fefb561158a34",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 2
+}

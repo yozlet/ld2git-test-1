@@ -1,0 +1,41 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/flag-with-segment",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 1
+	},
+	"lastModified": 1498596980665,
+	"on": false,
+	"prerequisites": [],
+	"rules": [
+		{
+			"_id": "57dfdfd5-8f45-45af-a4e2-fb5c228a5102",
+			"clauses": [
+				{
+					"_id": "ec66475d-a418-4af9-a32d-d2f56275ae82",
+					"attribute": "",
+					"negate": false,
+					"op": "segmentMatch",
+					"values": [
+						"test-segment-to-patch"
+					]
+				}
+			],
+			"trackEvents": false,
+			"variation": 1
+		}
+	],
+	"salt": "c4c64c429a724d79919152851812f66b",
+	"sel": "99286d9f217b4ba79cece4a2f950f77a",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 4
+}

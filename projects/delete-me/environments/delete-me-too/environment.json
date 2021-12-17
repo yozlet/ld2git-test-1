@@ -1,0 +1,25 @@
+{
+	"_id": "5717d243d02d0e0204745e40",
+	"_links": null,
+	"apiKey": "sdk-7e09d287-95f8-40a2-8026-f8f394331935",
+	"approvalSettings": {
+		"bypassApprovalsForPendingChanges": false,
+		"canApplyDeclinedChanges": true,
+		"canReviewOwnRequest": false,
+		"minNumApprovals": 1,
+		"required": false,
+		"requiredApprovalTags": [],
+		"serviceConfig": {},
+		"serviceKind": "launchdarkly"
+	},
+	"color": "FF8000",
+	"confirmChanges": false,
+	"defaultTrackEvents": false,
+	"defaultTtl": 0,
+	"key": "delete-me-too",
+	"mobileKey": "mob-e61d9687-0325-47f4-a173-9df657d1794d",
+	"name": "Delete Me Too",
+	"requireComments": false,
+	"secureMode": false,
+	"tags": []
+}

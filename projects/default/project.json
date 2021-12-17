@@ -1,0 +1,13 @@
+{
+	"_id": "569f514183f2164430000001",
+	"_links": null,
+	"defaultClientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"environments": null,
+	"includeInSnippetByDefault": false,
+	"key": "default",
+	"name": "Default Project",
+	"tags": []
+}

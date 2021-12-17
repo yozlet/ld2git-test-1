@@ -1,0 +1,13 @@
+{
+	"_links": null,
+	"creationDate": 1495485849686,
+	"deleted": false,
+	"excluded": [],
+	"generation": 0,
+	"included": [],
+	"key": "segment-to-delete",
+	"name": "Segment to delete",
+	"rules": [],
+	"tags": [],
+	"version": 0
+}

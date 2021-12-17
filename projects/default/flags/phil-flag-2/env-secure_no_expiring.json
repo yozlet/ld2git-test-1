@@ -1,0 +1,25 @@
+{
+	"_environmentName": "secure with no expiring key",
+	"_site": {
+		"href": "/default/secure_no_expiring/features/phil-flag-2",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1639697936222,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "24f4de8ed558408f8b971a7fa2e8963e",
+	"sel": "33d2aa498577498194323a377ac04ab7",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

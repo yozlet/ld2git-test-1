@@ -1,0 +1,43 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1466184307302,
+	"customProperties": {},
+	"description": "",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "mobile-eval-all",
+	"kind": "boolean",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "mobile-eval-all",
+	"tags": [],
+	"temporary": false,
+	"variations": [
+		{
+			"_id": "9f43b9f6-306f-404c-bd44-d6e68429079c",
+			"value": true
+		},
+		{
+			"_id": "785e9d67-b59a-4538-9dda-b54022fd1300",
+			"value": false
+		}
+	]
+}

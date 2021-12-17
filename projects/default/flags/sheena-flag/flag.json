@@ -1,0 +1,47 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1639697735298,
+	"customProperties": {},
+	"defaults": {
+		"offVariation": 1,
+		"onVariation": 0
+	},
+	"description": "A flag for Postman testing",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "sheena-flag",
+	"kind": "boolean",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Sheena Flag",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "c08f0084-e4fa-4310-a956-60fb49079291",
+			"value": true
+		},
+		{
+			"_id": "6039534b-136c-45cc-ac54-e543e0508a65",
+			"value": false
+		}
+	]
+}

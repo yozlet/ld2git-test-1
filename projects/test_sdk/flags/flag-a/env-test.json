@@ -1,0 +1,24 @@
+{
+	"_environmentName": "No ttl",
+	"_site": {
+		"href": "/test_sdk/test/features/flag-a",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 1
+	},
+	"lastModified": 1466200779711,
+	"on": false,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "2bddc0654cde4b2f8a843680207ea85d",
+	"sel": "8828f83748564626964d32fb54a0ff9b",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

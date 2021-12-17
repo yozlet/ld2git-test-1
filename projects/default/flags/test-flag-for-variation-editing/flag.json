@@ -1,0 +1,49 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1484601845196,
+	"customProperties": {},
+	"description": "A test flag to test variation editing",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "test-flag-for-variation-editing",
+	"kind": "multivariate",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Test flag for variation editing",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "dd1a341f-cbac-4dea-8583-24dbdb9defd3",
+			"description": "Variation with a description",
+			"name": "Variation A",
+			"value": "A"
+		},
+		{
+			"_id": "ace73947-166c-4ea3-bf77-70e2add38a76",
+			"name": "Variation B",
+			"value": "B"
+		},
+		{
+			"value": "C"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"_environmentName": "No ttl",
+	"_site": {
+		"href": "/cache-headers-test/test/features/mobile-eval-all",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1466184307303,
+	"on": true,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "4c5c6ff092d646ea951db64b4e499385",
+	"sel": "63423f8bda44486eace1099f9efe1c8d",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 2
+}

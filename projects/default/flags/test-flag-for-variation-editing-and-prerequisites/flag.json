@@ -1,0 +1,46 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": false,
+		"usingMobileKey": true
+	},
+	"creationDate": 1484698145908,
+	"customProperties": {},
+	"description": "",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": false,
+	"key": "test-flag-for-variation-editing-and-prerequisites",
+	"kind": "multivariate",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Test flag for variation editing and prerequisites",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "0a15b12f-e50f-4c37-981d-bbe2992e4596",
+			"value": "a"
+		},
+		{
+			"_id": "b68e25ca-47ab-44e2-a61b-7d4039a78c27",
+			"value": "b"
+		},
+		{
+			"value": "c"
+		}
+	]
+}

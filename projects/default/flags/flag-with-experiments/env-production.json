@@ -1,0 +1,36 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/flag-with-experiments",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"rollout": {
+			"variations": [
+				{
+					"variation": 0,
+					"weight": 50000
+				},
+				{
+					"variation": 1,
+					"weight": 50000
+				}
+			]
+		}
+	},
+	"lastModified": 1586821549127,
+	"offVariation": 1,
+	"on": true,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "7e92fa889ed04981b95ecee002f63bd9",
+	"sel": "83e5fe8daa71473fad1e1d50f9daee0e",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

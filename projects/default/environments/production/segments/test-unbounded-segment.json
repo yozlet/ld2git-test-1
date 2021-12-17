@@ -1,0 +1,22 @@
+{
+	"_links": null,
+	"_unboundedMetadata": {
+		"deleted": false,
+		"envId": "",
+		"excludedCount": 0,
+		"includedCount": 0,
+		"segmentId": "",
+		"version": 0
+	},
+	"creationDate": 1496637824151,
+	"deleted": false,
+	"excluded": [],
+	"generation": 111,
+	"included": [],
+	"key": "test-unbounded-segment",
+	"name": "Test unbounded segment",
+	"rules": [],
+	"tags": [],
+	"unbounded": true,
+	"version": 0
+}

@@ -1,0 +1,43 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 2,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": true,
+		"usingMobileKey": true
+	},
+	"creationDate": 1498596980626,
+	"customProperties": {},
+	"description": "This is a large feature flag that triggers an indirect patch when modified",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": true,
+	"key": "large-indirect-flag",
+	"kind": "boolean",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Large indirect flag",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "18597b19-5779-493a-a3f9-94e8571ba361",
+			"value": true
+		},
+		{
+			"_id": "044d13c4-5f88-49d9-918c-6aa24f0aaf4f",
+			"value": false
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"_environmentName": "2 minute ttl",
+	"_site": {
+		"href": "/cache-headers-test/production/features/cache-headers-test-flag",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 0
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 0
+	},
+	"lastModified": 1464813697786,
+	"on": true,
+	"prerequisites": [],
+	"rules": [],
+	"salt": "c85e3812a4c744c8a340ecf36b4663de",
+	"sel": "22edad7fd07e4ff48537cbfdb5548b12",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

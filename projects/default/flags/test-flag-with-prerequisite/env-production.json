@@ -1,0 +1,30 @@
+{
+	"_environmentName": "Production",
+	"_site": {
+		"href": "/default/production/features/test-flag-with-prerequisite",
+		"type": "text/html"
+	},
+	"_summary": {
+		"prerequisites": 1
+	},
+	"archived": false,
+	"fallthrough": {
+		"variation": 1
+	},
+	"lastModified": 1463084141070,
+	"offVariation": 1,
+	"on": false,
+	"prerequisites": [
+		{
+			"key": "test-integration-flag",
+			"variation": 1
+		}
+	],
+	"rules": [],
+	"salt": "42c64ce029e1494ca56242e7aefe348e",
+	"sel": "7214a28e63d448b19bbbb851336e3a34",
+	"targets": [],
+	"trackEvents": false,
+	"trackEventsFallthrough": false,
+	"version": 1
+}

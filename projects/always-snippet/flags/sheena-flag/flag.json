@@ -1,0 +1,47 @@
+{
+	"_links": null,
+	"_maintainer": {
+		"_id": "569f514183f2164430000002",
+		"_links": null,
+		"email": "testing@launchdarkly.com",
+		"firstName": "",
+		"lastName": "",
+		"role": "owner"
+	},
+	"_version": 1,
+	"archived": false,
+	"clientSideAvailability": {
+		"usingEnvironmentId": true,
+		"usingMobileKey": true
+	},
+	"creationDate": 1639697580136,
+	"customProperties": {},
+	"defaults": {
+		"offVariation": 1,
+		"onVariation": 0
+	},
+	"description": "for Postman testing",
+	"environments": null,
+	"experiments": {
+		"baselineIdx": 0,
+		"items": []
+	},
+	"goalIds": [],
+	"includeInSnippet": true,
+	"key": "sheena-flag",
+	"kind": "boolean",
+	"maintainerId": "569f514183f2164430000002",
+	"name": "Sheena flag",
+	"tags": [],
+	"temporary": true,
+	"variations": [
+		{
+			"_id": "54061d2d-7262-455e-a4e7-662e62683612",
+			"value": true
+		},
+		{
+			"_id": "eb198b63-c07f-4417-815a-fa592cab64d9",
+			"value": false
+		}
+	]
+}
