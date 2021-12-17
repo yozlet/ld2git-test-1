@@ -1,0 +1,38 @@
+name: validate-changes
+on:
+  push:
+    branches:
+      - main
+jobs:
+  validate-changes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Count commits
+        id: commit_counter
+        uses: pbzona/ld_diff_commit_counter@v0.2
+      - name: Debug commit counter
+        run: echo "Depth of fetch will be ${{ steps.commit_counter.outputs.commitCount }}"
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: ${{ steps.commit_counter.outputs.commitCount }}
+      - name: Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Run validation
+        id: validation
+        uses: pbzona/ld_data_validator@main
+        with:
+          commitCount: "${{ steps.commit_counter.outputs.commitCount }}"
+          baseUrl: 'https://varnish-fastly-gonfalon-pr-15438.launchdarkly.okteto.dev'
+        env:
+          LD_API_KEY: ${{ secrets.LD_API_KEY }}
+      - name: Get the triggering event
+        run: echo "${{ steps.validation.outputs.event }}"
+      - name: Get the modified files
+        run: echo "${{ steps.validation.outputs.filesChanged }}"
+      - name: Get the modified flags
+        run: echo "${{ steps.validation.outputs.flagsChanged }}"
+      - name: Get the flag modification
+        run: echo "${{ steps.validation.outputs.flagModifications }}"
