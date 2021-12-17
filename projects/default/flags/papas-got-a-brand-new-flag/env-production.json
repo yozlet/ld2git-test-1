@@ -11,21 +11,21 @@
 	"fallthrough": {
 		"variation": 0
 	},
-	"lastModified": 1639705484342,
+	"lastModified": 1639713911160,
 	"offVariation": 1,
 	"on": false,
 	"prerequisites": [],
 	"rules": [
 		{
-			"_id": "ab59d84e-e528-4ed1-966c-18aff81ec6d6",
+			"_id": "fc84fbe7-e1a0-4657-a6cb-3b0eb1e74252",
 			"clauses": [
 				{
-					"_id": "05bf5237-a745-4846-b2e3-026e39361f26",
+					"_id": "9584e862-dcc4-41e3-af58-07d877be364d",
 					"attribute": "email",
 					"negate": false,
 					"op": "endsWith",
 					"values": [
-						"your mum"
+						"a kiss"
 					]
 				}
 			],
@@ -39,5 +39,5 @@
 	"targets": [],
 	"trackEvents": false,
 	"trackEventsFallthrough": false,
-	"version": 3
+	"version": 4
 }
